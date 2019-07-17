@@ -14,8 +14,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { NovoPerfilPageModule } from './novo-perfil/novo-perfil.module';
 import { IonicStorageModule } from '@ionic/storage';
 
-
-
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],

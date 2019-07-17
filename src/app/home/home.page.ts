@@ -17,7 +17,7 @@ export class HomePage {
   }
 
   constructor(public modalController: ModalController, private storage: Storage) {
-    
+
   }
 
   async abrir_modal() {

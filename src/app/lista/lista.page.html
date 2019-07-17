@@ -9,7 +9,6 @@
     <ion-item-sliding *ngFor="let cliente of clientes">
 
       <ion-item href="/detail/{{cliente.id}}/">{{cliente.cliente}}</ion-item>
-
       <ion-item-options>
         <ion-item-option (click)="remove(cliente)">
           <ion-icon md="md-trash" slot="end"></ion-icon>

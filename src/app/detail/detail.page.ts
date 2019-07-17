@@ -9,7 +9,6 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./detail.page.scss'],
 })
 export class DetailPage implements OnInit {
-
   id;
   cliente;
   constructor(private route: ActivatedRoute, private http: HttpClient) {

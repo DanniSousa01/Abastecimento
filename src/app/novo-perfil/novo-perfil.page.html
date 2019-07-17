@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>NovoPerfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+
+    <ion-card-header>
+      Cadastro de Usuário
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-item>
+        <ion-label> Nome: </ion-label>
+        <ion-input [(ngModel)]="cliente.cliente"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label> Data: </ion-label>
+        <ion-input [(ngModel)]="cliente.data"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label> Quantidade: </ion-label>
+        <ion-input [(ngModel)]="cliente.qtd"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label> Valor Unitário: </ion-label>
+        <ion-input [(ngModel)]="cliente.vlr_unitario"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label> Valor Total: </ion-label>
+        <ion-input [(ngModel)]="cliente.vlr_total"></ion-input>
+      </ion-item>
+
+      <ion-button expand="full" (click)="add()">Ok</ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

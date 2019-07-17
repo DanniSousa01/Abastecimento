@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Olá, {{usuario.nome}}!
+    </ion-title>
+    
+    <ion-buttons slot="end">
+      <ion-button href="/lista/">
+        Lista
+      </ion-button>
+    </ion-buttons>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img class="rounded mb-0" src="{{usuario.url}}" alt="">
+  </ion-card>
+  <ion-button expand="full" (click)="abrir_modal()"> Editar Perfil</ion-button>
+</ion-content>
